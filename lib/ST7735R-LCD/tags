@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A0_H	st7735.h	22;"	d
+A0_L	st7735.h	21;"	d
+A0_PIN	st7735.h	9;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c -std=c99 -O3 -I .\/$/;"	m
+CS_H	st7735.h	18;"	d
+CS_L	st7735.h	17;"	d
+CS_PIN	st7735.h	8;"	d
+Delay_US	st7735.h	29;"	d
+GPIO_BASE	gpio.h	1;"	d
+GPIO_GPAFEN0	gpio.h	39;"	d
+GPIO_GPAFEN1	gpio.h	40;"	d
+GPIO_GPAREN0	gpio.h	36;"	d
+GPIO_GPAREN1	gpio.h	37;"	d
+GPIO_GPCLR0	gpio.h	15;"	d
+GPIO_GPCLR1	gpio.h	16;"	d
+GPIO_GPEDS0	gpio.h	21;"	d
+GPIO_GPEDS1	gpio.h	22;"	d
+GPIO_GPFEN0	gpio.h	27;"	d
+GPIO_GPFEN1	gpio.h	28;"	d
+GPIO_GPFSEL0	gpio.h	5;"	d
+GPIO_GPFSEL1	gpio.h	6;"	d
+GPIO_GPFSEL2	gpio.h	7;"	d
+GPIO_GPFSEL3	gpio.h	8;"	d
+GPIO_GPFSEL4	gpio.h	9;"	d
+GPIO_GPFSEL5	gpio.h	10;"	d
+GPIO_GPHEN0	gpio.h	30;"	d
+GPIO_GPHEN1	gpio.h	31;"	d
+GPIO_GPLEN0	gpio.h	33;"	d
+GPIO_GPLEN1	gpio.h	34;"	d
+GPIO_GPLEV0	gpio.h	18;"	d
+GPIO_GPLEV1	gpio.h	19;"	d
+GPIO_GPPUD	gpio.h	42;"	d
+GPIO_GPPUDCLK0	gpio.h	43;"	d
+GPIO_GPPUDCLK1	gpio.h	44;"	d
+GPIO_GPREN0	gpio.h	24;"	d
+GPIO_GPREN1	gpio.h	25;"	d
+GPIO_GPSET0	gpio.h	12;"	d
+GPIO_GPSET1	gpio.h	13;"	d
+HEADERS	Makefile	/^HEADERS = $(wildcard *.h)$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=$/;"	m
+OBJECTS	Makefile	/^OBJECTS=$(patsubst %.c, %.o, $(wildcard *.c))$/;"	m
+RGB565	st7735.c	/^uint16_t RGB565(uint8_t R, uint8_t G, uint8_t B)$/;"	f
+RST_H	st7735.h	26;"	d
+RST_L	st7735.h	25;"	d
+RST_PIN	st7735.h	10;"	d
+SOURCES	Makefile	/^SOURCES=main.c st7735.c gpio.c spi.c$/;"	m
+ST7735_AddrSet	st7735.c	/^void ST7735_AddrSet(uint16_t XS, uint16_t YS, uint16_t XE, uint16_t YE)$/;"	f
+ST7735_Clear	st7735.c	/^void ST7735_Clear(uint16_t color)$/;"	f
+ST7735_Init	st7735.c	/^void ST7735_Init(void)$/;"	f
+ST7735_Orientation	st7735.c	/^void ST7735_Orientation(uint8_t orientation)$/;"	f
+ST7735_cmd	st7735.c	/^void ST7735_cmd(uint8_t cmd)$/;"	f
+ST7735_data	st7735.c	/^void ST7735_data(uint8_t data)$/;"	f
+ST7735_write	st7735.c	/^void ST7735_write(uint8_t data)$/;"	f
+ScrOrientation_TypeDef	st7735.h	/^} ScrOrientation_TypeDef;$/;"	t	typeref:enum:__anon1
+TARGET	Makefile	/^TARGET=lcd$/;"	m
+__ST7735_H__	st7735.h	2;"	d
+gpio	gpio.c	/^volatile unsigned int *gpio = MAP_FAILED;$/;"	v
+gpio_clear_pin	gpio.c	/^void gpio_clear_pin(int pin)$/;"	f
+gpio_init	gpio.c	/^void gpio_init(void)$/;"	f
+gpio_mode_output	gpio.c	/^void gpio_mode_output(int pin)$/;"	f
+gpio_set_pin	gpio.c	/^void gpio_set_pin(int pin)$/;"	f
+main	main.c	/^int main()$/;"	f
+scr_180	st7735.h	/^  scr_180 = 3$/;"	e	enum:__anon1
+scr_CCW	st7735.h	/^  scr_CCW = 2,$/;"	e	enum:__anon1
+scr_CW	st7735.h	/^  scr_CW = 1,$/;"	e	enum:__anon1
+scr_h	st7735.h	14;"	d
+scr_height	st7735.c	/^uint16_t scr_height;$/;"	v
+scr_normal	st7735.h	/^  scr_normal = 0,$/;"	e	enum:__anon1
+scr_w	st7735.h	13;"	d
+scr_width	st7735.c	/^uint16_t scr_width;$/;"	v
+spiBPW	spi.c	/^static const uint8_t spiBPW = 8;$/;"	v	file:
+spiDelay	spi.c	/^static const uint16_t spiDelay = 0;$/;"	v	file:
+spiDev0	spi.c	/^static const char *spiDev0 = "\/dev\/spidev0.0";$/;"	v	file:
+spiDev1	spi.c	/^static const char *spiDev1 = "\/dev\/spidev0.1";$/;"	v	file:
+spiFd	spi.c	/^static int spiFd;$/;"	v	file:
+spiSpeed	spi.c	/^static uint32_t spiSpeed;$/;"	v	file:
+spi_init	spi.c	/^int spi_init(int channel, int speed, int mode)$/;"	f
+spi_write	spi.c	/^int spi_write(int channel, unsigned char *data, int len)$/;"	f
+spi_write_16	spi.c	/^int spi_write_16(int channel, unsigned char *data, int len)$/;"	f
