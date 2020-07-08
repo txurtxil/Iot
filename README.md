@@ -1,15 +1,18 @@
 ### Como usar Pantalla GPIO  touch LCD st7735r framebuffer , mqtt + Switch + DHT22 + Switch
- Parto del trabajo de Yoshee:
-https://4pda.ru/forum/index.php?showtopic=813602&st=280
+ 
 
+Es un binario escrito en Qt5 para las X, se puede usar en cualquier raspberry con las X o similares.
 
 ![Iot Mqtt ](https://github.com/txurtxil/Iot/blob/master/Iot.jpg "Iot Mqtt")
 
 ![Iot Mqtt ](https://github.com/txurtxil/Iot/blob/master/3TftOpiZeroW.jpg "Iot Mqtt")
 
+![Iot Mqtt ](https://github.com/txurtxil/Iot/blob/master/Tft_placa.jpg "Iot Mqtt")
+
 ### Para usar la pantalla 1.8 st7735:
 
-He dejado las fuentes y fichero readme en la carpeta lib/ST7735R-LCD
+He dejado las fuentes para Raspberry PI Zero W y fichero readme en la carpeta lib/ST7735R-LCD
+https://github.com/txurtxil/iot/tree/master/lib/ST7735R-LCD
 
 ### 1. Compilar e instalar librerias wiringpi:
 
